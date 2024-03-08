@@ -19,7 +19,20 @@
 }
 
 html {
-    font-size: 150%;
+  font-size: 125%;
+}
+
+body {
+  width: 70%;
+}
+
+main {
+  position: absolute;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .attribution {
