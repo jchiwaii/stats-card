@@ -40,16 +40,11 @@ main {
 
 .details {
   display: flex;
-}
-
-.image-view {
-  display: inline-flex;
-}
-.image-view img::after {
-  background-color: var(--soft-violet);
+  color: var(--slightly-transparent-white-stat-headings);
 }
 
 .image-view img {
+  background-color: var(--soft-violet);
   margin-top: 150px;
   width: 450px;
 }
