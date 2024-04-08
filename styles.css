@@ -32,16 +32,28 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--soft-violet);
+  background-color: var(--dark-desaturated-blue);
   padding: 60px 100px 60px 40px;
   margin-top: 150px;
   width: 450px;
 }
 
+.main-head {
+  color: var(--slightly-transparent-white-main-paragraph);
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.paragraph {
+  font-family: "Inter";
+  color: var(--slightly-transparent-white-stat-headings);
+  font-size: 15px;
+}
+
 .details {
   display: flex;
   justify-content: space-between;
-  color: var(--slightly-transparent-white-main-paragraph);
   width: 300px;
 }
 
@@ -53,11 +65,17 @@ main {
 }
 
 #stats {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
   text-transform: uppercase;
   color: var(--slightly-transparent-white-stat-headings);
 }
 
 #heading-stat {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 700;
   color: var(--slightly-transparent-white-main-paragraph);
 }
 
