@@ -18,17 +18,24 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--very-dark-blue);
+}
+
 main {
   display: flex;
+  position: absolute;
+  transform: translate(50%);
 }
 
 .main-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: var(--dark-desaturated-blue);
   padding: 40px;
   margin-top: 150px;
-  width: 350px;
+  width: 450px;
 }
 
 .details {
@@ -36,8 +43,15 @@ main {
 }
 
 .image-view {
+  display: inline-flex;
+}
+.image-view img::after {
+  background-color: var(--soft-violet);
+}
+
+.image-view img {
   margin-top: 150px;
-  width: 350px;
+  width: 450px;
 }
 
 .attribution {
