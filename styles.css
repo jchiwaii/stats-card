@@ -18,9 +18,26 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+}
+
 .main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
   margin-top: 150px;
-  width: 250px;
+  width: 350px;
+}
+
+.details {
+  display: flex;
+}
+
+.image-view {
+  margin-top: 150px;
+  width: 350px;
 }
 
 .attribution {
