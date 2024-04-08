@@ -32,15 +32,33 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--dark-desaturated-blue);
-  padding: 40px;
+  background-color: var(--soft-violet);
+  padding: 60px 100px 60px 40px;
   margin-top: 150px;
   width: 450px;
 }
 
 .details {
   display: flex;
+  justify-content: space-between;
+  color: var(--slightly-transparent-white-main-paragraph);
+  width: 300px;
+}
+
+.first,
+.second,
+.third {
+  display: flex;
+  flex-direction: column;
+}
+
+#stats {
+  text-transform: uppercase;
   color: var(--slightly-transparent-white-stat-headings);
+}
+
+#heading-stat {
+  color: var(--slightly-transparent-white-main-paragraph);
 }
 
 .image-view img {
