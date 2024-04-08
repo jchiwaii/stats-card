@@ -33,8 +33,8 @@ main {
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--dark-desaturated-blue);
-  padding: 60px 100px 60px 40px;
-  margin-top: 150px;
+  padding: 60px 60px 60px 60px;
+  margin-top: 200px;
   width: 450px;
 }
 
@@ -81,14 +81,20 @@ main {
 
 .image-view img {
   background-color: var(--soft-violet);
-  margin-top: 150px;
+  margin-top: 200px;
   width: 450px;
 }
 
 .attribution {
+  color: var(--slightly-transparent-white-main-paragraph);
+  position: absolute;
   font-size: 11px;
   text-align: center;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
