@@ -79,7 +79,7 @@ b {
 
 #stats {
   font-family: "Lexend Deca";
-  font-weight: 400;
+  font-weight: 300;
   font-size: 15px;
   text-transform: uppercase;
   color: var(--slightly-transparent-white-stat-headings);
@@ -102,7 +102,7 @@ b {
 .image-view img {
   background-color: var(--soft-violet);
   width: 450px;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .attribution {
@@ -117,4 +117,24 @@ b {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  main {
+    flex-direction: column;
+    transform: translate(0%);
+    width: 375px;
+  }
+
+  .main-text {
+    margin-top: 100px;
+    width: fit-content;
+    padding: 0;
+  }
+
+  .details {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
