@@ -32,7 +32,11 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--dark-desaturated-blue);
+  background-color: color-mix(
+    in srgb,
+    var(--dark-desaturated-blue) 90%,
+    var(--soft-violet) 10%
+  );
   padding: 60px 60px 60px 60px;
   margin-top: 200px;
   width: 450px;
@@ -43,12 +47,21 @@ main {
   font-family: "Inter";
   font-weight: 700;
   font-size: 24px;
+  line-height: 32px;
+  padding-right: 20px;
+}
+
+b {
+  color: var(--soft-violet);
+  font-weight: 700;
 }
 
 .paragraph {
   font-family: "Inter";
   color: var(--slightly-transparent-white-stat-headings);
   font-size: 15px;
+  margin-top: -32px;
+  line-height: 22px;
 }
 
 .details {
@@ -79,10 +92,17 @@ main {
   color: var(--slightly-transparent-white-main-paragraph);
 }
 
+.image-view {
+  background: var(--soft-violet);
+  width: 450px;
+  margin-top: 200px;
+  overflow: hidden;
+}
+
 .image-view img {
   background-color: var(--soft-violet);
-  margin-top: 200px;
   width: 450px;
+  opacity: 0.4;
 }
 
 .attribution {
