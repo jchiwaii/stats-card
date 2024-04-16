@@ -25,7 +25,8 @@ body {
 main {
   display: flex;
   position: absolute;
-  transform: translate(50%);
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .mobile-pic {
@@ -40,18 +41,18 @@ main {
     var(--dark-desaturated-blue) 90%,
     var(--soft-violet) 10%
   );
-  padding: 60px 60px 60px 60px;
-  margin-top: 200px;
-  width: 450px;
+  padding: 3.75rem 3.75rem 3.75rem 3.75rem;
+  margin-top: 12.5rem;
+  width: 28.125rem;
 }
 
 .main-head {
   color: var(--slightly-transparent-white-main-paragraph);
   font-family: "Inter";
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  padding-right: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-right: 1.25rem;
 }
 
 b {
@@ -62,15 +63,15 @@ b {
 .paragraph {
   font-family: "Inter";
   color: var(--slightly-transparent-white-stat-headings);
-  font-size: 15px;
-  margin-top: -32px;
-  line-height: 22px;
+  font-size: 0.9375rem;
+  margin-top: -2rem;
+  line-height: 1.375rem;
 }
 
 .details {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 18.75rem;
 }
 
 .first,
@@ -83,37 +84,37 @@ b {
 #stats {
   font-family: "Lexend Deca";
   font-weight: 300;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-transform: uppercase;
   color: var(--slightly-transparent-white-stat-headings);
 }
 
 #heading-stat {
   font-family: "Inter";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--slightly-transparent-white-main-paragraph);
 }
 
 .image-view {
   background: var(--soft-violet);
-  width: 450px;
-  margin-top: 200px;
+  width: 28.125rem;
+  margin-top: 12.5rem;
   overflow: hidden;
 }
 
 .image-view img {
   background-color: var(--soft-violet);
-  width: 450px;
+  width: 28.125rem;
   opacity: 0.3;
 }
 
 .attribution {
   color: var(--slightly-transparent-white-main-paragraph);
   position: absolute;
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
-  bottom: 50px;
+  bottom: 3.125rem;
   left: 50%;
   transform: translate(-50%);
 }
@@ -127,7 +128,7 @@ b {
     flex-direction: column;
     transform: translate(0%);
     width: 375px;
-    padding: 30px;
+    padding: 1.875rem;
   }
 
   .mobile-pic {
@@ -135,8 +136,8 @@ b {
     background: var(--soft-violet);
     width: 100%;
     height: 231px;
-    margin-top: 100px;
-    border-radius: 5px;
+    margin-top: 6.25rem;
+    border-radius: 0.3125rem;
   }
 
   .mobile-pic img {
@@ -151,17 +152,17 @@ b {
     margin: 0;
     width: fit-content;
     padding: 0;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
   }
 
   .main-head {
     text-align: center;
-    padding: 40px;
+    padding: 2.5rem;
   }
 
   .paragraph {
     text-align: center;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
   }
 
   #heading-stat {
@@ -169,13 +170,13 @@ b {
   }
 
   #stats {
-    padding: 7px 0;
+    padding: 0.4375rem 0;
   }
 
   .first,
   .second,
   .third {
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
   .image-view img {
     display: none;
@@ -188,6 +189,6 @@ b {
   .details {
     flex-direction: column;
     align-items: center;
-    margin: 30px 0;
+    margin: 1.875rem 0;
   }
 }
