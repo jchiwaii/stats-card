@@ -81,7 +81,7 @@ b {
   flex-direction: column;
 }
 
-#stats {
+.stats {
   font-family: "Lexend Deca";
   font-weight: 300;
   font-size: 0.9375rem;
@@ -89,7 +89,7 @@ b {
   color: var(--slightly-transparent-white-stat-headings);
 }
 
-#heading-stat {
+.heading-stat {
   font-family: "Inter";
   font-size: 1.5rem;
   font-weight: 700;
@@ -166,11 +166,11 @@ b {
     padding: 0.625rem 1.875rem;
   }
 
-  #heading-stat {
+  .heading-stat {
     text-align: center;
   }
 
-  #stats {
+  .stats {
     padding: 0.4375rem 0;
   }
 
