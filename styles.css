@@ -129,6 +129,8 @@ b {
     transform: translate(0%);
     width: 375px;
     padding: 1.875rem;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   .mobile-pic {
