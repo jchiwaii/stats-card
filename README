@@ -16,7 +16,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### The challenge
 
-This was a basic challenge for beginnners using HTML and CSS, using basic vanilla CSS concepts such as Flexbox and Grid. This stats card is also responsive for devices on 375px.
+This was a basic challenge for beginners using HTML and CSS, as well as basic vanilla CSS concepts such as Flexbox and Grid. This stats card is also responsive for devices on 375px.
 
 ### Links
 
@@ -35,7 +35,7 @@ This was a basic challenge for beginnners using HTML and CSS, using basic vanill
 
 ### What I learned
 
-In this challenge, I learn how one can mix two colors into a backgriund using the color-mix property in CSS. I also learnt how to add color in an image's background.
+In this challenge, I learned how to mix two colors into a background using the color-mix property in CSS and how to add color to an image's background.
 
 ## Author
 
