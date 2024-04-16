@@ -126,7 +126,6 @@ b {
 @media only screen and (max-width: 375px) {
   main {
     flex-direction: column;
-    transform: translate(0%);
     width: 375px;
     padding: 1.875rem;
     left: 50%;
